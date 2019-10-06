@@ -1,0 +1,45 @@
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-accent {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+}
+
+.text-big,
+.text-big-svg {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.75rem;
+}
+
+.text-cursive {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.twinkle {
+  position: absolute;
+}
+
+.twinkle text {
+  fill: #FAC550;
+}
+
+.little-star {
+  color: #F2C1D1;
+  font-size: 3rem;
+}
+
+.one-year-old {
+  color: #FAC550;
+  font-size: 4rem;
+}
+
+.is-what-you-are {
+  color: #FF91AF;
+}
