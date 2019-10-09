@@ -1,5 +1,6 @@
 import cx from 'classnames';
 import React from 'react';
+import { Sparkles } from './Sparkles';
 import { Stars } from './Stars';
 import './styles.css';
 
@@ -22,10 +23,17 @@ export const QuinnBirthday = () => (
     <div className="card">
       <Stars />
       <Twinkle className="twinkle" />
-      <div className="text-accent little-star">little star</div>
-      <div className="text-big one-year-old">one year old</div>
-      <div className="text-big is-what-you-are">is what you are!</div>
-      <div className="text-cursive little-star">please join us to celebrate</div>
+      <Sparkles />
+      <div className="text-accent header-text">little star</div>
+      <div className="body-text">
+        <div className="text-big one-year-old">one year old</div>
+        <div className="text-big is-what-you-are">is what you are!</div>
+      </div>
+      <div className="footer-text">
+        <div className="text-cursive join-us">please join us to celebrate</div>
+        <div className="text-big birthday-text">Quinn's 1st Birthday</div>
+        <div className="text-big birthday-time">Oct. 19th at 3pm</div>
+      </div>
     </div>
   </div>
 );

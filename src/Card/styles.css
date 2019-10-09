@@ -2,6 +2,12 @@
   background: #3B3B3B;
   position: relative;
   margin: 0 auto;
-  height: 9.25in;
-  width: 7in;
+
+  height: 100vh;
+  max-height: 100vh;
+  width: calc(7 / 9.25 * 100vh);
+}
+
+.card-wrapper {
+  overflow: hidden;
 }

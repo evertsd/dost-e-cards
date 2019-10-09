@@ -1,5 +1,5 @@
 .star {
-  fill: #FAC550;
+  fill: rgba(250, 213, 80, 0.8);
   height: 2rem;
   position: absolute;
   width: 2rem;
@@ -32,18 +32,39 @@
 }
 
 .star-pointed-4 {
-  right: 2.5rem;
+  right: 2rem;
   top: 2rem;
 }
 
 .star-pointed-5 {
-  left: 2.5rem;
-  bottom: 3rem;
+  left: 2rem;
+  bottom: 2rem;
 }
 
 .star-pointed-6 {
-  right: 4rem;
-  bottom: 3rem;
-  height: 3rem;
-  width: 3rem;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.star-pointed-7,
+.star-pointed-8,
+.star-pointed-9 {
+  fill: rgba(250, 213, 80, 0.8);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.star-pointed-7 {
+  right: calc(100% / 4 + 1%);
+  top: 18vh;
+}
+
+.star-pointed-8 {
+  right: calc(100% / 2 - 1%);
+  top: 12vh;
+}
+
+.star-pointed-9 {
+  left: calc(100% / 4);
+  top: 18vh;
 }

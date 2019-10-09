@@ -1,0 +1,20 @@
+.sparkle {
+  height: 1rem;
+  position: absolute;
+  width: 1rem;
+}
+
+.sparkle path:first-of-type {
+  fill: rgba(210,212,250, 0.6)!important;
+}
+
+.sparkle path:last-of-type {
+  fill: rgba(230,232,250, 0.6)!important;
+}
+
+.sparkle-1 {
+  height: 1.15rem;
+  width: 1.15rem;
+  top: 38vh;
+  left: 0.9rem;
+}

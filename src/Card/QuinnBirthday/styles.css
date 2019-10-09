@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
 .text-accent {
@@ -14,7 +14,8 @@
 .text-big-svg {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-size: 2.75rem;
+  font-size: 2.65rem;
+  font-weight: 600;
 }
 
 .text-cursive {
@@ -22,7 +23,12 @@
   font-size: 2rem;
 }
 
+.text-wrapper {
+  text-align: center;
+}
+
 .twinkle {
+  pointer-events: none;
   position: absolute;
 }
 
@@ -30,16 +36,55 @@
   fill: #FAC550;
 }
 
-.little-star {
+.header-text,
+.join-us {
   color: #F2C1D1;
   font-size: 3rem;
+  font-weight: 600;
+}
+
+.header-text {
+  margin-bottom: 2rem;
+  margin-top: 15vh;
+}
+
+.body-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.footer-text {
+  margin-bottom: 1.75rem;
+}
+
+.join-us {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.birthday-text {
+  color: #FAC550;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.birthday-time {
+  color: #FF91AF;
+  font-size: 2rem;
 }
 
 .one-year-old {
   color: #FAC550;
   font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .is-what-you-are {
   color: #FF91AF;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin-bottom: 4rem;
 }
