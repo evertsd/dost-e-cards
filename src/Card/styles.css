@@ -11,3 +11,7 @@
 .card-wrapper {
   overflow: hidden;
 }
+
+body {
+  margin: 0;
+}

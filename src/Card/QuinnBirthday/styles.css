@@ -18,6 +18,10 @@
   font-weight: 600;
 }
 
+.twinkle-text {
+  font-size: 3.25rem;
+}
+
 .text-cursive {
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
@@ -87,4 +91,20 @@
   font-weight: 600;
   letter-spacing: 4px;
   margin-bottom: 4rem;
+}
+
+.one-year-old,
+.twinkle-text,
+.birthday-text {
+  text-shadow: 0 0 0.2em #FAEA85;
+}
+
+.header-text,
+.join-us {
+  text-shadow: 0 0 0.2em #EEE;
+}
+
+.is-what-you-are,
+.birthday-time {
+  text-shadow: 0 0 0.2em #FFA1CF;
 }

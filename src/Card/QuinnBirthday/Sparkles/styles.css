@@ -1,20 +1,28 @@
 .sparkle {
-  height: 1rem;
+  height: 2rem;
   position: absolute;
-  width: 1rem;
+  width: 2rem;
+}
+
+.sparkle path {
+  fill: rgba(210,212,250, 1)!important;
 }
 
 .sparkle path:first-of-type {
-  fill: rgba(210,212,250, 0.6)!important;
+  fill: rgba(210,212,250, 1)!important;
 }
 
 .sparkle path:last-of-type {
-  fill: rgba(230,232,250, 0.6)!important;
+  fill: rgba(230,232,250, 1)!important;
 }
 
 .sparkle-1 {
-  height: 1.15rem;
-  width: 1.15rem;
-  top: 38vh;
-  left: 0.9rem;
+  top: 45vh;
+  left: 7.5rem;
+}
+
+.sparkle-2 {
+  height: 1rem;
+  top: 44vh;
+  left: 10rem;
 }

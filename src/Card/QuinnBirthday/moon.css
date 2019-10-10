@@ -1,0 +1,12 @@
+.moon {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  transform: rotate(45deg);
+  height: 20rem;
+  width: 20rem;
+}
+
+.moon path {
+  fill: rgba(250, 213, 80, 0.05);
+}
